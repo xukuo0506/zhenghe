@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body,#root,.App{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+
+}
+.header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.input{
+    width: 100%;
+    height: 50px;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input input{
+    width: 90%;
+    height: 70%;
+}
+.wrapper .zan{
+    width: 100%;
+    height: 100px;
+}
+.btns{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+.btns .btn{
+    flex: 1;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+.btns  .btncolor{
+    color: blue;
+}
+.main{
+    flex: 1;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+}
+.inner{
+    width: 100%;
+    height: 100%;
+}
+.zan{
+    width: 100%;
+    height: 100px;
+}
+.inner-item{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.inner-item img{
+    margin: 10px;
+}
+.text span{
+    /* margin: 0 5px; */
+}
+
+.back{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.5 );
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.sote{
+    width: 100%;
+    height: 50%;
+    background: #fff;
+
+}
+.sote p{
+    padding: 15px 20px;
+
+}
+.sote p.active{
+    color: blue;
+}
+.quyu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.typr1{
+    width: 30%;
+    height: 100%;
+    background: bisque;
+}
+.type2{
+   flex: 1;
+    height: 100%;
+    background: aquamarine;
+    overflow: auto;
+}
+.typr1 p{
+    text-align: center;
+    padding: 15px 0;
+}
+.typr1 p.active{
+    background: red ;
+}
+.type2 p{
+    text-align: center;
+    padding: 15px 0;
+}
+.jiage{
+  width: 100%;
+  height: 50%;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+.jiage-item{
+  width: 30%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px;
+}
+.jiage-item.active{
+  background: burlywood;
+}
+.fangxingc{
+  width: 100%;
+  height: 50%;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
